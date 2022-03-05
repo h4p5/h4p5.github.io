@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  background-color: #e8e9f3;
+  font: 100% Helvetica, sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 3.5rem;
+  margin-left: 5%;
+  font-style: italic;
+}
+
+h3 {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+li {
+  font-size: 1.5rem;
+}
+
+hr {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/******************NAVBAR*******************/
+#navbar {
+  background-color: #F7D565;
+  height: 4rem;
+  padding-inline: 10%;
+  clear: both;
+  text-align: center;
+}
+
+.logo * {
+  float: left;
+  margin-top: 0.5rem;
+}
+.logo img {
+  height: 3rem;
+  margin-inline: 1rem;
+}
+.logo h1 {
+  font-family: Georgia, serif;
+  color: darkviolet;
+  font-size: 2.5rem;
+}
+
+.admin {
+  float: right;
+  text-align: center;
+  height: 2.5rem;
+  margin-top: 0.75rem;
+  background-color: lightgoldenrodyellow;
+  border-radius: 0.5rem;
+  border-color: transparent;
+  font-size: 1.2rem;
+}
+
+/******************FOOTER*******************/
+footer {
+  clear: both;
+  padding-top: 4rem;
+}
+
+#contacto {
+  background-color: #F7D565;
+  padding-inline: 10%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.brand {
+  font-style: normal;
+  font-family: Georgia, serif;
+  color: darkviolet;
+}
+
+.contenido {
+  margin-inline: 10%;
+  margin-top: 2rem;
+}
+.contenido h2 {
+  margin: 0;
+  padding-bottom: 1.5rem;
+}
+.contenido p {
+  font-size: 1.5rem;
+}
+
+.division {
+  width: 50%;
+  float: left;
+}
+
+/**********************TABLES*********************/
+table {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* HEADERS */
+th {
+  border-bottom: 3px solid black;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.t-header:hover {
+  background-color: #e8e9f3;
+}
+
+/* CELLS */
+td {
+  border-bottom: 1px solid grey;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-size: 1.2rem;
+  padding-inline: 15px;
+}
+
+tr:hover {
+  background-color: #F7D565;
+}
+
+.c-pad {
+  padding-inline: 10px;
+}
+
+/* BUTTONS */
+.btn-update {
+  font-size: 1.2rem;
+  background-color: lightgreen;
+}
+
+.btn-update:hover {
+  background-color: green;
+}
+
+.btn-delete {
+  font-size: 1.2rem;
+  background-color: orange;
+}
+
+.btn-delete:hover {
+  background-color: red;
+}
+
+/*# sourceMappingURL=out-pasteleria.css.map */

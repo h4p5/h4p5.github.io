@@ -1,0 +1,64 @@
+@use 'base';
+
+/******************CONTENT*******************/
+#content{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-inline: 10%;
+}
+.content{
+    width: 50%;
+    float: left;
+    padding-inline: 5%;
+    padding-top: 1.5rem;
+    p{ font-size: 1.5rem; }
+}
+
+/******************MENU*******************/
+#menu{
+    img{ width: 100%;}
+    span{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+.wrap{
+    display: grid;
+    align-items: center;
+}
+#sabores{ grid-template-columns: auto auto auto;}
+#adornos{
+    grid-template-columns: auto auto auto auto;
+    span{ font-size: 1.2rem;}
+}
+
+/******************FORMULARIO*******************/
+label{ font-size: 1.2rem;}
+#formulario{hr{width: 75%;}}
+.input{
+    width: 75%;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    border-width: 0.1rem;
+    font-size: 1.2rem;
+}
+.text{
+    height: 2rem;
+    padding-inline: 0.75rem;
+}
+textarea{
+    height: 5rem;
+    padding: 0.2rem;
+}
+.btn{
+    border-radius: 5px;
+    background-color: white;
+    border-width: 3px;
+    font-size: 1.2rem;
+}
+.submit:hover{
+    background-color: green;
+}
+.reset:hover{
+    background-color: yellow;
+}

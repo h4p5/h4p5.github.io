@@ -1,0 +1,96 @@
+//Fonts
+$menu-font: Georgia, serif;
+$ff: 100% Helvetica, sans-serif;
+
+//Colors
+$logo-color: #F7D565;
+$bg: #e8e9f3;
+
+//Sizes
+$nav-size: 4rem;
+
+body{
+    margin: 0;
+    background-color: $bg;
+    font: $ff;
+    a{
+        text-decoration: none;
+    }
+}
+
+h2{
+    font-family: $menu-font;
+    font-size: 3.5rem;
+    //text-align: center;
+    margin-left: 5%;
+    font-style: italic;
+}
+
+h3{
+    font-family: $menu-font;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+li{ font-size: 1.5rem;}
+
+hr{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+p{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+/******************NAVBAR*******************/
+#navbar{
+    background-color: $logo-color;
+    height: $nav-size;
+    padding-inline: 10%;
+    clear: both;
+    text-align: center;
+}
+.logo{
+    *{
+        float: left;
+        margin-top: 0.5rem;
+    }
+    img{
+        height: 3rem;
+        margin-inline: 1rem;
+    }
+    h1{
+        font-family: $menu-font;
+        color: darkviolet;
+        font-size: 2.5rem;
+    }
+}
+.admin{
+    float: right;
+    text-align: center;
+    height: 2.5rem;
+    margin-top: 0.75rem;
+    background-color: lightgoldenrodyellow;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    font-size: 1.2rem;
+}
+
+/******************FOOTER*******************/
+footer{
+    clear: both;
+    padding-top: 4rem;
+}
+#contacto{
+    background-color: #F7D565;    
+    padding-inline: 10%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.brand{
+    font-style: normal;
+    font-family: $menu-font;
+    color: darkviolet;
+}

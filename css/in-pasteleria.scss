@@ -1,0 +1,63 @@
+@use 'base';
+
+.contenido{
+    margin-inline: 10%;
+    margin-top: 2rem;
+    //padding-inline: 5%;
+    h2{
+        margin: 0;
+        padding-bottom: 1.5rem;
+    }
+    p{
+        font-size: 1.5rem
+    }
+}
+
+.division{
+    width: 50%;
+    float: left;
+}
+
+/**********************TABLES*********************/
+table{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* HEADERS */
+th{
+    border-bottom: 3px solid black;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.t-header:hover{background-color: base.$bg;}
+
+/* CELLS */
+td{
+    border-bottom: 1px solid grey;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-size: 1.2rem;
+    padding-inline: 15px;
+}
+tr:hover{
+    background-color: base.$logo-color;
+}
+
+.c-pad{
+    padding-inline: 10px;
+}
+
+/* BUTTONS */
+.btn-update{
+    font-size: 1.2rem;
+    background-color: lightgreen;
+}
+.btn-update:hover{ background-color: green;}
+
+.btn-delete{
+    font-size: 1.2rem;
+    background-color: orange;
+}
+.btn-delete:hover{ background-color: red;}
